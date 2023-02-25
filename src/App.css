@@ -1,38 +1,234 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+head{
+  display: none;
+}
+body{
+  background: #0e0e0e;
+  /* display: flex;
+  justify-content: center; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  margin: auto;
+  background-color: rgb(136, 136, 224);
+  width: 1761px;
+  height: 999px;
+  padding-top: 60px;
+ 
 }
+.area{
+  border: 2px solid  rgb(68, 146, 209);
+    width: 1311px;
+  height: 888px;
+  background-color: rgb(68, 146, 209);
+  border-radius: 25px;
+    margin: auto;
+    /* position: stick; */
+    /* padding-top: 65px; */
+    /* padding-bottom: 585px; */
+    /* cursor: zoom-in; */
+    /* transition: background-color 300ms; */
+    /* aspect-ratio: auto 1111 / 833; */
+    /* height: 833px; */
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */
+    /* float: right; */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+} 
+.new{
+padding-left:54px ;
+padding-top: 165px;
+color: white;
+position:absolute;
+
+}
+.feb{
+  padding-left:54px ;
+  padding-top: 195px;
   color: white;
+  position:absolute;
+}
+.plus{
+  margin: 28px;
+  padding-left: 10px;
+  padding-bottom: 12px;
+  font-size: 56px;
+  color: white;
+  position:absolute;
+}
+.deg{
+  font-size: 118px;
+  color: white;
+  padding-top: 222px;
+  padding-left: 74px;
+  position:absolute;
+  
+}
+.sunny{
+  font-size: 28px;
+  color: white;
+  padding-top: 382px;
+  padding-left: 94px;
+  position:absolute;
+}
+.build{
+  position:absolute;
+  bottom: 0;
+  width:279px;
+}
+.sArea{
+  
+  border: 2px solid rgb(220, 214, 247);
+  width:777px;
+  height:635px;
+  background-color: rgb(220, 214, 247);
+  border-radius: 25px;
+  padding: 125px;
+    cursor: pointer;
+    float: right;
+
 }
 
-.App-link {
-  color: #61dafb;
+ .upcoming-hours{
+  border: 2px solid white;
+  width:755px;
+  height:284px;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 24px;
+  /* margin: 100px 10rem; */
+  /* display: block; */
+    /* margin: auto; */
+    /* cursor: zoom-in;
+    transition: background-color 300ms;
+    aspect-ratio: auto 1111 / 833;
+    overflow-clip-margin: content-box;
+    overflow: clip; */
+    /* float: right; */
+} 
+.chart-heading{
+  color:black;
+  margin-top: 10px;
+}
+.Rain{
+  padding-left: 321px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.days{
+  padding-left: 500px;
+  padding-top: 85px;
 }
+.detail{
+padding: 4px;
+}
+
+.humidity{
+ 
+  display: inline-block; /* Display boxes horizontally */
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* for line crossbar */
+.container{
+  /* display: inline-block; */
+  width: 30%;
+  background-color: grey;
+}
+.bar{
+  width: 100%;
+  height: 5px;
+  background-color: rgb(113, 113, 219);
+  border-radius: 5px;
+  border: 1px solid  rgb(113, 113, 219) ;
+  
+}
+.normal{
+  width: 100%;
+  height: 5px;
+  background-color: rgb(113, 113, 219);
+  border-radius: 5px;
+  border: 1px solid  rgb(113, 113, 2);
+
+}
+.bad{
+  width: 100%;
+  height: 5px;
+  background-color: rgb(113, 113, 219);
+  border-radius: 5px;
+  border: 1px solid  rgb(113, 113, 2);
+}
+
+
+.wind{
+  display: inline-block; 
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.precipitation{
+  display: inline-block; /* Display boxes horizontally */
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.uv{
+  display: inline-block; 
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.fee{
+  display: inline-block; 
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.rain{
+  display: inline-block; 
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* .chat{
+  position: static;
+  margin-top:px;
+} */
